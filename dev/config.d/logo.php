@@ -2,10 +2,10 @@
 
 return [
     /* Primeira linha do logo configurável */
-    'logo.title' => 'Casicadas Digitais',
+    'logo.title' => 'Cacicadas Digitais',
 
     /* Segunda linha do logo configurável */
-    'logo.subtitle' => 'Casicadas Digitais',
+    'logo.subtitle' => 'Cacicadas Digitais',
 
     /* Cores da logo */
     'logo.colors' => [
