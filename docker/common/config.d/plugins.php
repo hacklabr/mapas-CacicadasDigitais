@@ -5,6 +5,7 @@ return [
         'MultipleLocalAuth' => [ 'namespace' => 'MultipleLocalAuth' ],
         'SamplePlugin' => ['namespace' => 'SamplePlugin'],
         'Analytics',
-        'Accessibility'
+        'Accessibility',
+        'AdminLoginAsUser'
     ]
 ];
