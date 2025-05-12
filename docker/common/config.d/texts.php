@@ -4,7 +4,8 @@ use \MapasCulturais\i;
 
 return [
     "text:home-header.title" => i::__("Bem-vind@!"),
-    "text:home-header.description" => i::__("O Mapa Cacicadas Digitais é uma plataforma livre de confluência entre pessoas e organizações de territórios da Resex Tapajós-Arapiuns. Aqui reunimos dados e informações para uma governança territorial baseada nos nossos saberes."),
+    "text:home-header.description" => i::__("O Mapa Cacicadas Digitais é uma plataforma livre de confluência entre pessoas e organizações de territórios da Resex Tapajós-Arapiuns. Aqui reunimos dados e informações para uma governança territorial baseada nos nossos saberes. 
+    Por meio desta plataforma também contribuímos para o Sistema Nacional de Unidades de Conservação, nos defendemos do colonialismo de dados e cuidamos do que é importante para nós: a Floresta."),
     "text:home-entities.events" => i::__("Quer divulgar ou saber quais atividades estão ocorrendo nas Resex? Festas Tradicionais, Assembléias, Jogos de Futebol! Utilize as ferramentas de busca para encontrar o que está acontecendo. E com cadastro, você também pode incluir suas atividades na plataforma e divulgá-las gratuitamente!"),
     "text:home-entities.agents" => i::__("Encontre pessoas e organizações dessas comunidades formando uma rede de quem cuida da Floresta. Cadastre-se e inclua também seu perfil e de organizações, coletivos e grupos dos quais faz parte."),
     "text:home-entities.opportunities" => i::__("Aqui você pode encontrar editais, chamamentos públicos, vagas de trabalho e outras oportunidades que necessitam de inscrições. Além disso, é possível criar seu próprio formulário e divulgar suas oportunidades para outras pessoas, de dentro e de fora das Resex."),
