@@ -34,6 +34,14 @@ return [
                 'app_id' => env('AUTH_TWITTER_APP_ID', null),
                 'app_secret' => env('AUTH_TWITTER_APP_SECRET', null),
             ),
+            'decidim' => [
+                'visible' => env('AUTH_DECIDIM_CLIENT_ID', false),
+                'client_id' => env('AUTH_DECIDIM_CLIENT_ID', null),
+                'client_secret' => env('AUTH_DECIDIM_CLIENT_SECRET', null),
+                'redirect_uri' => env('AUTH_DECIDIM_REDIRECT_URI', null),
+                'scope' => env('AUTH_DECIDIM_SCOPE', null),
+                'auth_endpoint' => env('AUTH_DECIDIM_AUTH_ENDPOINT', null),
+            ]
 
         ]
     ),
