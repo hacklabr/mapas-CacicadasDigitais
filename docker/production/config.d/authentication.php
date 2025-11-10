@@ -41,6 +41,8 @@ return [
                 'redirect_uri' => env('AUTH_DECIDIM_REDIRECT_URI', null),
                 'scope' => env('AUTH_DECIDIM_SCOPE', null),
                 'auth_endpoint' => env('AUTH_DECIDIM_AUTH_ENDPOINT', null),
+                'token_endpoint' => env('AUTH_DECIDIM_TOKEN_ENDPOINT', null),
+                'userinfo_endpoint' => env('AUTH_DECIDIM_USERINFO_ENDPOINT', null),
             ]
 
         ]
