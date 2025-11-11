@@ -10,3 +10,6 @@
 [submodule "plugins/AdminLoginAsUser"]
 	path = plugins/AdminLoginAsUser
 	url = https://github.com/mapasculturais/plugin-AdminLoginAsUser.git
+[submodule "plugins/CustomEntity"]
+	path = plugins/CustomEntity
+	url = https://github.com/mapasculturais/plugin-CustomEntity
