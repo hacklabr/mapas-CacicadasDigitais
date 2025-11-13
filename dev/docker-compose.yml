@@ -52,6 +52,7 @@ services:
       - db
       - redis
       - mailhog
+      - sessions
   
     stdin_open: true
     tty: true
