@@ -24,9 +24,14 @@ services:
       - ../plugins/SamplePlugin:/var/www/src/plugins/SamplePlugin
       - ../plugins/MultipleLocalAuth:/var/www/src/plugins/MultipleLocalAuth
       - ../plugins/Analytics:/var/www/src/plugins/Analytics
+      - ../plugins/SettingsCacicadas:/var/www/src/plugins/SettingsCacicadas
       - ../plugins/Accessibility:/var/www/src/plugins/Accessibility
       - ../plugins/SpamDetector:/var/www/src/plugins/SpamDetector
       - ../plugins/AdminLoginAsUser:/var/www/src/plugins/AdminLoginAsUser
+      - ../themes/Cacicadas/overrides/taxonomies.php:/var/www/src/conf/taxonomies.php
+      - ../themes/Cacicadas/overrides/agent-types.php:/var/www/src/conf/agent-types.php
+      - ../themes/Cacicadas/overrides/opportunity-types.php:/var/www/src/conf/opportunity-types.php
+      - ../themes/Cacicadas/overrides/space-types.php:/var/www/src/conf/space-types.php
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10

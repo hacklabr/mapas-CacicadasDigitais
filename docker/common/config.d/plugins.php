@@ -11,6 +11,7 @@ return [
         'Analytics',
         'Accessibility',
         'AdminLoginAsUser',
+        'SettingsCacicadas',
         'CustomEntity' => [
             'entities' => fn() => [
                 new EntityDefinition (
@@ -89,6 +90,6 @@ return [
                     ],
                 ),
             ]
-        ]
+        ],
     ]
 ]; 
