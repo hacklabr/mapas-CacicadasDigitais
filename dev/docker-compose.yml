@@ -29,7 +29,6 @@ services:
       - ../plugins/SpamDetector:/var/www/src/plugins/SpamDetector
       - ../plugins/AdminLoginAsUser:/var/www/src/plugins/AdminLoginAsUser
       - ../docker/overrides/taxonomies.php:/var/www/src/conf/taxonomies.php
-      - ../docker/overrides/agent-types.php:/var/www/src/conf/agent-types.php
       - ../docker/overrides/opportunity-types.php:/var/www/src/conf/opportunity-types.php
       - ../docker/overrides/space-types.php:/var/www/src/conf/space-types.php
 
