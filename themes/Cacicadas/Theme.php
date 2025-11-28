@@ -2,6 +2,7 @@
 
 namespace Cacicadas;
 
+use Cacicadas\CountryLocalizations\CommunityLocalization;
 use MapasCulturais\App;
 
 class Theme extends \MapasCulturais\Themes\BaseV2\Theme
@@ -18,5 +19,14 @@ class Theme extends \MapasCulturais\Themes\BaseV2\Theme
 
         $app = App::i();
 
+        $app->registerCountryLocalization(new CommunityLocalization());
+
+        $app->hook('template(<<*>>.<<*>>.country-address-form):before', function () {
+            $this->part('country-address-selector');
+        });
+
+        $app->hook('template(<<*>>.<<*>>.country-address-form):forms', function () {
+            $this->part('country-address-community');
+        });
     }
 }
