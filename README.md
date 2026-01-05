@@ -216,5 +216,5 @@ cp -r docker-data /caminho/para/backups/docker-data
 
 - Plataforma baseada no **Mapas Culturais**
 - Estrutura técnica derivada do **Mapas Culturais Base Project**
-- Projeto **Cacicadas Digitais**, sobrerania digital popular das pessoas e organizações de territórios da Resex Tapajós-Arapiuns.
+- Projeto **Cacicadas Digitais**, sobrerania digital popular de pessoas e organizações dos territórios da Resex Tapajós-Arapiuns.
 
