@@ -1,6 +1,6 @@
-# Em Cena
+# Cacicadas Digitais
 
-## 🎭 Sobre o projeto
+## Sobre o projeto
 
 O Cacicadas Digitais é uma plataforma livre de confluência entre pessoas e organizações de territórios da Resex Tapajós-Arapiuns. Aqui reunimos dados e informações para uma governança territorial baseada nos nossos saberes. Por meio desta plataforma também contribuímos para o Sistema Nacional de Unidades de Conservação, nos defendemos do colonialismo de dados e cuidamos do que é importante para nós: a Floresta.
 
