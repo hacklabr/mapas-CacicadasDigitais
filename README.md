@@ -2,7 +2,11 @@
 
 ## Sobre o projeto
 
-O Cacicadas Digitais é uma plataforma livre de confluência entre pessoas e organizações de territórios da Resex Tapajós-Arapiuns. Aqui reunimos dados e informações para uma governança territorial baseada nos nossos saberes. Por meio desta plataforma também contribuímos para o Sistema Nacional de Unidades de Conservação, nos defendemos do colonialismo de dados e cuidamos do que é importante para nós: a Floresta.
+O projeto **Cacicadas Digitais na Resex Tapajós-Arapiuns**, contemnplado no **Edital Mover-se na Web**, é integrante de uma iniciativa mais ampla que visa promover a soberania digital, a Economia Digital Solidária e fortalecer a governança comunitária nas comunidades ribeirinhas e indígenas da Amazônia.
+
+A proposta visa o desenvolvimento de uma solução digital completa de monitoramento de território que será composta por um aplicativo de coleta de dados offline, pela integração desses dados com a plataforma Cacicadas Digitais, e a personalização do Mapas Culturais para atuar como uma ferramenta central de armazenamento e gestão de informações, permitirá que as comunidades gerenciem seus territórios de maneira eficiente e integrada.
+
+A plataforma livre Cacicadas Digitais tem como objetivo confluir pessoas e organizações do territórios da Resex Tapajós-Arapiuns. Nela serão reunidos dados e informações com o foco na governança territorial baseada nos nossos saberes na floresta. A plataforma também irá contribuír para o Sistema Nacional de Unidades de Conservação, para a defesa do colonialismo de dados e para o cuidado do que é mais importante: a Floresta.
 
 Este repositório é uma adaptação direta do **Mapas Culturais Base Project**, contendo configurações, estrutura e scripts necessários para rodar o projeto Em Cena.
 
@@ -13,7 +17,7 @@ Repositório:
 
 ## 🧱 Base técnica
 
-Este projeto utiliza:
+Esta instalação utiliza:
 
 - Mapas Culturais (core)
 - Docker e Docker Compose
@@ -28,7 +32,7 @@ A organização do repositório, bem como os scripts de automação, seguem o pa
 
 ## 📁 Estrutura de arquivos
 
-Os principais arquivos e diretórios do projeto são:
+Os principais arquivos e diretórios da instalação são:
 
 - **.env_sample** – Modelo para criação do arquivo `.env`
 - **start.sh** – Inicializa o ambiente de produção/homologação
