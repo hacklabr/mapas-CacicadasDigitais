@@ -68,7 +68,6 @@ $home-register: #8b471d;
 .lgpd-document {
     border-bottom: 1px solid $black;
     margin-bottom: 1em;
-    
 
     h2 {
         margin-bottom: 0.8em;
@@ -97,6 +96,25 @@ $home-register: #8b471d;
     width: 146.14px;
 }
 
+.home-header {
+    --mc-home-header-gradient: linear-gradient(180deg, #174b61cc, #174b61cc 12%, #8b471dcc 95%, #8b471dcc);
+
+    &__background {
+
+        .img {
+            min-width: unset;
+        }
+    }
+
+    &__content {
+        min-height: unset;
+        aspect-ratio: 1440 / 585;
+    }
+
+    &__title {
+        text-transform: uppercase;
+    }
+}
 
 .home-developers {
     position: relative;
@@ -114,7 +132,7 @@ $home-register: #8b471d;
         left: 0;
 
     }
-    
+
     &__background-img {
         width: 100%;
         object-fit: cover;
@@ -148,7 +166,7 @@ $home-register: #8b471d;
 
 .home-entities__content--header {
     color: #174b61;
-    
+
     .description {
         color:#3f2812;
     }
